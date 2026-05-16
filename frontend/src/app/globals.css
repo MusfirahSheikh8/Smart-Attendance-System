@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes fadeHighlight {
+  0% {
+    background-color: rgba(59, 130, 246, 0.2); /* blue-500 with opacity */
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+
+.animate-fadeHighlight {
+  animation: fadeHighlight 3s ease-out forwards;
+}
+
+@keyframes countUp {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-countUp {
+  animation: countUp 0.5s ease-out forwards;
+}
+
+@keyframes proxyFlash {
+  0% { background-color: #dc2626; } /* red-600 */
+  50% { background-color: #991b1b; } /* red-900 */
+  100% { background-color: #dc2626; }
+}
+
+.animate-proxy-flash {
+  animation: proxyFlash 0.5s infinite;
+}
