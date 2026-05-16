@@ -395,11 +395,40 @@ Triggers automatically populate `AccessLogs` on failed recognition or OTP mismat
 
 ---
 
-🖥️ Screenshots
+## 🖥️ Screenshots
 
-> *Admin dashboard, webcam capture interface, and attendance logs — coming soon.*
+### 🔐 Login Page
+<img src="assets/Login.jpeg" alt="Login Page" width="800"/>
+
+> Role-based authentication with quick demo login for Admin and Student portals.
 
 ---
+
+### 📊 Admin Dashboard
+<img src="assets/Admin-Dashboard.jpeg" alt="Admin Dashboard" width="800"/>
+
+> Live attendance overview — total students, present today, late arrivals, proxy alerts, and average confidence score with a real-time attendance rate chart.
+
+---
+
+### 👤 Student Face Enrollment
+<img src="assets/Face-Enrollement.jpeg" alt="Face Enrollment" width="800"/>
+
+> Admin registers new students by capturing their face via webcam. The biometric encoding is computed and stored securely in Oracle DB.
+
+---
+
+### 📝 Leave Application — Student Portal
+<img src="assets/Leave Application.jpeg" alt="Leave Application" width="800"/>
+
+> Students submit leave requests with date and reason directly from their portal.
+
+---
+
+### ✅ Leave Management — Admin Portal
+<img src="assets/Leave Approval.jpeg" alt="Leave Approval" width="800"/>
+
+> Admins review pending leave requests and approve or reject them in one click.
 
 🤝 Contributing
 
