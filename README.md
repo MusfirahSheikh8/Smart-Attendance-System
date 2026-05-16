@@ -433,10 +433,6 @@ GitHub: @MusfirahSheikh8
 
 <div align="center">
   
-  <sub>Built with ❤️ — Smart Attendance System · Phase 5 Complete 🎉</sub>
+  <sub>Built with ❤️ — Smart Attendance System · 🎉</sub>
 </div>
 
-
-<div align="center">
-  <sub>Built with ❤️ — Smart Attendance System · Phase 5 Complete 🎉</sub>
-</div>
